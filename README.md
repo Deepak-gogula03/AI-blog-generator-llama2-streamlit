@@ -67,24 +67,8 @@ This solution helps automate blog creation and significantly improves productivi
 
 ## 🏗️ System Architecture
 
-```text
-User
- ↓
-Streamlit UI
- ↓
-User Input Collection
-(Topic, Audience, Word Count)
- ↓
-LangChain PromptTemplate
- ↓
-CTransformers
- ↓
-Llama-2-7B-Chat-q4_1.gguf
- ↓
-Blog Generation
- ↓
-Streamlit Output
-```
+<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/1fb35c05-6c0a-4b1c-8e76-4d46cf8fb4a0" />
+
 
 The architecture follows a prompt-driven Generative AI workflow consisting of user input collection, prompt construction, local LLM inference, content generation, and result presentation.
 
@@ -364,60 +348,3 @@ Utilized GGUF quantization to reduce memory consumption.
 ### Interactive User Experience
 
 Built a responsive and user-friendly Streamlit application.
-
----
-
-## 🚀 Future Enhancements
-
-* Multi-Language Blog Generation
-* PDF Export Feature
-* DOCX Export Feature
-* Markdown Export Feature
-* SEO Optimization
-* AI Content Summarization
-* AI Image Generation
-* Streamlit Cloud Deployment
-* Docker Deployment
-* AWS Deployment
-* Azure Deployment
-
----
-
-## 📈 Resume Description
-
-### AI Blog Generator using Llama 2, LangChain & Streamlit
-
-Developed an AI-powered blog generation application using LangChain, CTransformers, Streamlit, and the Llama-2-7B Chat GGUF model. Implemented prompt engineering techniques to generate structured, audience-specific blog content. Built a local LLM inference pipeline enabling offline execution, privacy preservation, and cost-free content generation without external API dependencies.
-
----
-
-## 📌 Repository Information
-
-### Repository Name
-
-```text
-ai-blog-generator-llama2-streamlit
-```
-
-### Repository Description
-
-```text
-AI-powered Blog Generator built using Llama-2-7B Chat GGUF, LangChain, CTransformers, and Streamlit for offline content generation and local LLM inference.
-```
-
-### Topics / Tags
-
-```text
-generative-ai
-llama2
-langchain
-streamlit
-ctransformers
-local-llm
-gguf
-blog-generator
-prompt-engineering
-python
-large-language-models
-offline-ai
-```
