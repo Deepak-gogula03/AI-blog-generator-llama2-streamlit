@@ -200,8 +200,6 @@ ai-blog-generator-llama2-streamlit/
 ├── screenshots/
 │   ├── home_page.png
 │   ├── input_form.png
-│   ├── generated_blog.png
-│   └── architecture.png
 │
 ├── requirements.txt
 │
