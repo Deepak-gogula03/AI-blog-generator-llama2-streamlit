@@ -215,7 +215,7 @@ ai-blog-generator-llama2-streamlit/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ai-blog-generator-llama2-streamlit.git
+git clone https://github.com/Deepak-gogula03/ai-blog-generator-llama2-streamlit.git
 ```
 
 Move into project directory:
