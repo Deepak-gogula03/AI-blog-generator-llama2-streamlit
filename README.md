@@ -206,12 +206,6 @@ ai-blog-generator-llama2-streamlit/
 ├── requirements.txt
 │
 ├── README.md
-│
-├── .gitignore
-│
-├── LICENSE
-│
-└── venv/
 ```
 
 ---
